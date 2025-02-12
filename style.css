@@ -1,3 +1,7 @@
+body {
+  background-color: antiquewhite;
+}
+
 ul {
   display: flex; /*横並びにする*/
   justify-content: flex-end; /*右寄せ*/
@@ -9,19 +13,6 @@ li {
   font-weight: bold;
   font-size: 30px;
   background-color: white;
-}
-
-#topImg {
-  opacity: 0.8; /*画像の透明度*/
-}
-
-#secImg {
-  opacity: 0.8;
-  height: 400px;
-  background-image: url(images/inside.jpg);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
 }
 
 header {
@@ -43,22 +34,40 @@ nav h2 {
   padding: 15px;
 }
 
+#topImg {
+  opacity: 0.8; /*画像の透明度*/
+}
+
+#secImg {
+  opacity: 0.8;
+  height: 400px;
+  background-image: url(images/inside.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 200px;
+}
+
 .about {
   text-align: center;
+  margin-top: 200px;
 }
 
 .about h1 {
   text-align: center;
+  font-size: 40px;
 }
 
 #info {
-  border: dotted 5px red;
   text-align: center;
   padding-top: 20px;
-  margin-top: 20px;
-  background-color: bisque;
+  margin-top: 100px;
 }
 
+#info h1 {
+  font-size: 30px;
+  background-image: url(images/inside.jpg);
+}
 table {
   text-align: center;
   margin: 0 auto; /*テーブルを真中に配置する*/
@@ -66,9 +75,10 @@ table {
   font-size: 25px;
 }
 
-#toBring h2 {
+#toBring h1 {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 150px;
+  font-size: 30px;
 }
 
 #ulItems {
@@ -78,4 +88,30 @@ table {
   font-size: 18px;
   text-align: center;
   display: block;
+  padding: 10px;
+}
+
+#thirdImg {
+  height: 300px;
+  background-image: url(images/sauna_towel.png);
+  opacity: 0.8;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.map h1 {
+  text-align: center;
+}
+
+.form {
+  text-align: center;
+}
+
+#contactForm label {
+  display: block;
+}
+
+footer {
+  background-color: bisque;
 }
