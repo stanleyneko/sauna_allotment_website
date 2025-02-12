@@ -14,7 +14,7 @@
       <ul>
         <li><a href="#title"></a>Home</li>
         <li><a href="#info">Pricing</a></li>
-        <li><a href="#contactForm">Contact</a></li>
+        <li><a href="#name">Contact</a></li>
       </ul>
     </nav>
     <h1>Sauna in Allotment</h1>
@@ -95,22 +95,33 @@
     </section>
 
     <section class="form">
-      <div class="contact-form-conainter">
-        <h2>Contact us</h2>
-        <div id="contactForm">
-          <form action="/submit" method="post">
-            <label id="name" for="name">Your name</label>
+
+      <h2>Contact us</h2>
+
+
+      <form action="/submit" method="post">
+        <div class="contactform-container">
+          <div class="form-group">
+            <label id="name" for="name">Full Name </label>
             <input type="text" id="name" name="name" required>
-            <label id="email" for="email">Your email</label>
+          </div>
+          <div class="form-group">
+            <label id="email" for="email">Email Address </label>
             <input type="email" id="email" name="email" required>
+          </div>
+          <div class="form-group">
             <label id="message" for="message">Message</label>
             <input type="text" id="message" name="message" required>
+          </div>
+
+
+          <div id="button">
+            <button type='submit'>SEND</button>
+          </div>
         </div>
-        <div id="button">
-          <button type='submit'>SEND</button>
-        </div>
-        </form>
-      </div>
+      </form>
+
+
     </section>
   </main>
   <footer>

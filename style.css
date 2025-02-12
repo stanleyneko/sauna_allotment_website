@@ -108,26 +108,32 @@ table {
   text-align: center;
 }
 
-.form {
-  text-align: center;
+.form-group {
+  display: flex;
+  flex-direction: column; /*縦にならべる*/
+  margin-bottom: 25px;
 }
 
-#contactForm label {
-  display: block;
+label {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%; /*フォームの横幅を広げる*/
+  max-width: 400px; /*最大幅を設定*/
+  padding: 8px;
+  border: 1px solid;
+  border-radius: 5px;
+}
+
+input[type="message"] {
+  width: 300px;
+  height: 200px; /* メッセージ欄だけ高さを増やす */
+  resize: vertical; /* ユーザーが高さを変更できるようにする（任意） */
 }
 
 footer {
   background-color: bisque;
-}
-
-#name {
-  width: 600px;
-}
-
-.contact-form-conainter {
-  min-height: 75px;
-  height: fit-content;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
 }
