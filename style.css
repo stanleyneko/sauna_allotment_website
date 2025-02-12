@@ -1,0 +1,48 @@
+ul {
+  display: flex; /*横並びにする*/
+  justify-content: flex-end; /*右寄せ*/
+  list-style: none; /*マーカーを削除*/
+}
+
+li {
+  padding: 15px;
+  font-weight: bold;
+  font-size: 30px;
+  background-color: white;
+}
+
+#topImg {
+  width: 100%;
+  opacity: 0.8; /*画像の透明度*/
+}
+
+header {
+  height: 600px;
+  background-image: url(images/community-sauna.jpg); /*画像の表示*/
+  background-size: cover; /*縦横比を維持してフィット*/
+  background-position: center; /*画像の中心を表示*/
+  background-repeat: no-repeat; /*画像の繰り返しを防ぐ*/
+}
+
+header h1 {
+  font-size: 70px;
+  color: white;
+}
+
+nav h2 {
+  display: flex;
+  justify-content: flex-start;
+  padding: 15px;
+}
+
+.about {
+  text-align: center;
+}
+
+.about h1 {
+  text-align: center;
+}
+
+#info {
+  border: dotted 5px red;
+}
