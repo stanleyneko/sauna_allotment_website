@@ -55,9 +55,27 @@ nav h2 {
   border: dotted 5px red;
   text-align: center;
   padding-top: 20px;
+  margin-top: 20px;
+  background-color: bisque;
 }
 
 table {
   text-align: center;
   margin: 0 auto; /*テーブルを真中に配置する*/
+  background-color: white;
+  font-size: 25px;
+}
+
+#toBring h2 {
+  text-align: center;
+  margin-top: 100px;
+}
+
+#ulItems {
+  display: block;
+}
+#items {
+  font-size: 18px;
+  text-align: center;
+  display: block;
 }
