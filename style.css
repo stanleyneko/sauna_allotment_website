@@ -12,8 +12,16 @@ li {
 }
 
 #topImg {
-  width: 100%;
   opacity: 0.8; /*画像の透明度*/
+}
+
+#secImg {
+  opacity: 0.8;
+  height: 400px;
+  background-image: url(images/inside.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header {
@@ -45,4 +53,11 @@ nav h2 {
 
 #info {
   border: dotted 5px red;
+  text-align: center;
+  padding-top: 20px;
+}
+
+table {
+  text-align: center;
+  margin: 0 auto; /*テーブルを真中に配置する*/
 }
