@@ -10,11 +10,11 @@
 <body>
   <header>
     <nav>
-      <h2>Sauna in Allotment</h2>
+      <h2><a name="title">Sauna in Allotment</a></h2>
       <ul>
-        <li>Home</li>
-        <li>Pricing</li>
-        <li>Contact</li>
+        <li><a href="#title"></a>Home</li>
+        <li><a href="#info">Pricing</a></li>
+        <li><a href="#contactForm">Contact</a></li>
       </ul>
     </nav>
     <h1>Sauna in Allotment</h1>
@@ -25,7 +25,7 @@
   <main>
     <section class="about">
       <h1>Who we are</h1>
-      <h3>アロットメントの中にある手作りの薪サウナです。アロットメントのメンバーで運営管理しています。一般の方にもオープンしているので、ぜひ整にきてください。</h3>
+      <h3>アロットメントの中にある手作りの薪サウナです。<br>アロットメントのメンバーで運営管理しています。一般の方にもオープンしているので、ぜひ整にきてください。</h3>
     </section>
 
     <div id="secImg">
@@ -95,21 +95,22 @@
     </section>
 
     <section class="form">
-      <h2>Contact us</h2>
-      <div id="contactForm">
-        <form action="/submit" method="post">
-          <label for="name">Your name</label>
-          <input type="text" id="name" name="name" required>
-          <label for="email">Your email</label>
-          <input type="email" id="email" name="email" required>
-          <label for="message">Message</label>
-          <input type="text" id="message" name="message" required>
+      <div class="contact-form-conainter">
+        <h2>Contact us</h2>
+        <div id="contactForm">
+          <form action="/submit" method="post">
+            <label id="name" for="name">Your name</label>
+            <input type="text" id="name" name="name" required>
+            <label id="email" for="email">Your email</label>
+            <input type="email" id="email" name="email" required>
+            <label id="message" for="message">Message</label>
+            <input type="text" id="message" name="message" required>
+        </div>
+        <div id="button">
+          <button type='submit'>SEND</button>
+        </div>
+        </form>
       </div>
-      <div id="button">
-        <button type='submit'>SEND</button>
-      </div>
-      </form>
-
     </section>
   </main>
   <footer>
