@@ -1,6 +1,7 @@
 <h1>Demo website "Sauna in Allotment"</h1>
 
-This is a demo website of "Sauna in Allotment' for my learning. As well as my dream! 
+This is a demo website of "Sauna in Allotment' for my learning. This is an ongoing project. I will update this accordingly while I learn separately from other snippets projects. 
+ダミーサイトです。随時変更されていきます。
 
 <h2>Overview</h2>
 <ul>
