@@ -85,22 +85,23 @@
     </div>
     <section class="map">
       <h1>Find us</h1>
-      <p><iframe
+      <p class="googlemap"><iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2482.1628656105163!2d-0.010697123495704047!3d51.52857257181819!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761d5bb6b7c9a9%3A0x231b53013dba4a19!2sThree%20Mill%20Ln%2C%20London!5e0!3m2!1sen!2suk!4v1739372347988!5m2!1sen!2suk"
           width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
           referrerpolicy="no-referrer-when-downgrade"></iframe></p>
-      <p>Use Brom Bow station. Use Exit A2 and straight down Bisson Road. You will see the green area in the end of the
+      <p class="googlemap">Use Brom Bow station. Use Exit A2 and straight down Bisson Road. You will see the green area
+        in the end of the
         street!
       </p>
     </section>
 
     <section class="form">
 
-      <h2>Contact us</h2>
 
 
       <form action="/submit" method="post">
         <div class="contactform-container">
+          <h2>Contact us</h2>
           <div class="form-group">
             <label id="name" for="name">Full Name </label>
             <input type="text" id="name" name="name" required>
@@ -111,12 +112,12 @@
           </div>
           <div class="form-group">
             <label id="message" for="message">Message</label>
-            <input type="text" id="message" name="message" required>
+            <input id="message-input" type="text" id="message" name="message" required>
           </div>
 
 
           <div id="button">
-            <button type='submit'>SEND</button>
+            <button type='submit'>SUBMIT</button>
           </div>
         </div>
       </form>
