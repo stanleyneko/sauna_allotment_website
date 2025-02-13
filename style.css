@@ -45,14 +45,18 @@ nav h2 {
   opacity: 0.8; /*画像の透明度*/
 }
 
-#secImg {
+#openinghours-text {
+  background-image: url(images/inside.jpg);
   opacity: 0.8;
   height: 400px;
-  background-image: url(images/inside.jpg);
+
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   margin-top: 200px;
+}
+
+#secImg {
 }
 
 .about {
