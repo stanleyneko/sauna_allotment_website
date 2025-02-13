@@ -3,11 +3,12 @@
 This is a demo website of "Sauna in Allotment' for my learning. As well as my dream! 
 
 <h2>Overview</h2>
-- lean basic HTML and CSS
-- learn basic website building
-- familiarize with using version control Git and Github and Bash
-
+<ul>
+<li>lean basic HTML and CSS</li>
+<li>learn basic website building</li>
+<li>familiarize with using version control Git and Github and Bash</li>
+</ul>
 <h2>Stack</h2>
-- HTML and CSS
+<li> HTML and CSS</li>
 
 
