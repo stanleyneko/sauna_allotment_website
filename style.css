@@ -10,17 +10,18 @@ a {
   text-decoration: none; /*下線を消す*/
 }
 ul {
+  width: 500px;
   display: flex; /*横並びにする*/
-  justify-content: flex-end; /*右寄せ*/
+  margin-left: auto; /*右寄せ*/
   list-style: none; /*マーカーを削除*/
+  justify-content: flex-end;
 }
 
 li {
-  padding: 15px;
   font-weight: bold;
+  padding: 15px;
   font-size: 30px;
   background-color: white;
-  margin: 0;
 }
 
 header {
@@ -31,16 +32,17 @@ header {
   background-repeat: no-repeat; /*画像の繰り返しを防ぐ*/
 }
 
+#sauna-in-allotment-title {
+  padding-left: 40px;
+}
+
+/*nav h2 {
+  width: 300px;
+}*/
+
 header h1 {
   font-size: 70px;
   color: white;
-}
-
-nav h2 {
-  display: flex;
-  justify-content: flex-start;
-  padding: 15px;
-  width: 300px;
 }
 
 #topImg {
