@@ -26,7 +26,7 @@ li {
 
 header {
   height: 600px;
-  background-image: url(images/community-sauna.jpg); /*画像の表示*/
+  background-image: url(images/sauna-outdoor.jpg); /*画像の表示*/
   background-size: cover; /*縦横比を維持してフィット*/
   background-position: center; /*画像の中心を表示*/
   background-repeat: no-repeat; /*画像の繰り返しを防ぐ*/
@@ -65,10 +65,14 @@ header h1 {
   font-size: 70px;
 }
 
+#opening-hours-h1 {
+  padding-top: 250px;
+}
+
 #secImg {
-  opacity: 0.8;
+  opacity: 0.9;
   height: 400px;
-  background-image: url(images/inside.jpg);
+  background-image: url(images/sauna-wood-burning.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -110,7 +114,7 @@ table {
 
 #thirdImg {
   height: 300px;
-  background-image: url(images/sauna_towel.png);
+  background-image: url(images/outdoor-green.jpg);
   opacity: 0.8;
   background-size: cover;
   background-position: center;
