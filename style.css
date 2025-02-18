@@ -9,6 +9,11 @@ a {
   color: inherit; /*親要素の色を継承する*/
   text-decoration: none; /*下線を消す*/
 }
+
+a:hover {
+  opacity: 0.5;
+}
+
 ul {
   width: 500px;
   display: flex; /*横並びにする*/
@@ -66,7 +71,9 @@ header h1 {
 }
 
 #opening-hours-h1 {
-  padding-top: 250px;
+  margin-top: 200px;
+  text-align: center;
+  font-size: 40px;
 }
 
 #secImg {
@@ -81,8 +88,6 @@ header h1 {
 
 #info {
   text-align: center;
-  padding-top: 20px;
-  margin-top: 100px;
 }
 
 .pricing {
@@ -92,8 +97,20 @@ header h1 {
 table {
   text-align: center;
   margin: 0 auto; /*テーブルを真中に配置する*/
-  background-color: white;
-  font-size: 25px;
+  font-size: 30px;
+}
+
+#price-container {
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
+
+.week-in-price-container {
+  font-size: 40px;
+}
+
+.time-in-price-container {
+  margin-top: 0px;
 }
 
 #toBring h1 {
@@ -112,6 +129,9 @@ table {
   padding: 10px;
 }
 
+.facilities p {
+  font-size: 20px;
+}
 #thirdImg {
   height: 300px;
   background-image: url(images/outdoor-green.jpg);
