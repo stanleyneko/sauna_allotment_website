@@ -1,0 +1,61 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-size: 10px 10px;
+  background-image: linear-gradient(to right, #f7bcbc 1px, transparent 1px),
+    linear-gradient(to bottom, #f7bcbc 1px, transparent 1px);
+}
+
+h1 {
+  font-weight: bold;
+  font-family: "Space Mono", "IBM Plex Mono", "Courier New";
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Lato", serif;
+  font-weight: 300;
+  font-style: italic;
+}
+
+p {
+  font-family: "Lato", serif;
+  font-weight: 400;
+}
+
+li {
+  font-family: "Space Mono", "IBM Plex Mono", "Courier New";
+  font-weight: 400;
+}
+
+.about__images {
+  height: 400px;
+  width: 200%;
+  display: flex;
+  overflow: hidden;
+  animation: loopAnimation 30s linear infinite;
+  margin: 100px;
+}
+
+.about__item {
+  display: flex;
+  margin: 20px;
+}
+
+@keyframes loopAnimation {
+  0% {
+    transform: translate(0%);
+  }
+  100% {
+    transform: translate(-50%);
+  }
+}
+
+.learning__content {
+  width: 500px;
+  margin: 0 auto;
+}
