@@ -192,3 +192,13 @@ footer p {
     opacity: 1;
   }
 }
+
+.ideabord__img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img {
+  width: 20%;
+  height: 20%;
+}
