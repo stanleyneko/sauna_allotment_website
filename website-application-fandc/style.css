@@ -15,12 +15,15 @@ h1 {
   font-family: "Space Mono", "IBM Plex Mono", "Courier New";
   font-size: 40px;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 h2 {
   font-family: "Lato", serif;
   font-weight: 300;
   font-style: italic;
+  text-align: center;
+  margin: 50px;
 }
 
 p {
@@ -31,6 +34,7 @@ p {
 li {
   font-family: "Space Mono", "IBM Plex Mono", "Courier New";
   font-weight: 400;
+  list-style: none;
 }
 
 span {
@@ -41,6 +45,46 @@ span {
   margin-right: 5px;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  font-weight: bolder;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding: 20px;
+  border-bottom: solid rgb(34, 219, 182) 2px;
+}
+
+.nav__list {
+  display: flex;
+}
+
+.nav__item {
+  margin: 10px;
+  font-size: 20px;
+  text-decoration: underline;
+}
+
+/* Header */
+.header {
+  margin-top: 200px;
+}
+
+/* About section */
+.about {
+  margin-top: 200px;
+}
+
+.about__text {
+  margin: 0 100px 20px 100px;
+}
 /* Infinite slide animation */
 .about__images {
   width: 100%;
@@ -104,4 +148,13 @@ span {
 .learning__description {
   padding-left: 200px;
   margin-top: 20px;
+}
+
+footer {
+  height: 500px;
+  background-color: rgb(34, 219, 182);
+}
+
+.div-empty {
+  height: 200px;
 }
