@@ -1,0 +1,16 @@
+.body {
+  display: flex;
+}
+.timer-icon {
+  text-align: center;
+  font-size: 30px;
+  width: 100px;
+  border: solid 1px;
+  background-color: yellow;
+  border-radius: 3px;
+}
+
+.text__screen {
+  border: solid 1px;
+  height: 300px;
+}
